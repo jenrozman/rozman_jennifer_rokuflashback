@@ -14,11 +14,6 @@ body {
     width: 10%;
     margin-left: 50px;
 }
-.filtericons{
-    width: 10%;
-    margin-left: 15%;
-    opacity: .8;
-}
  .flashback{
     width: 40%;
     margin-left: 40px;
@@ -26,9 +21,17 @@ body {
  .smimg{
     width: 3%;
 }
+.filtericons{
+    width: 10%;
+    margin-left: 15%;
+    opacity: .8;
+}
 .footer{
   background-color: #4d4d4d;
 }
+.tab{opacity: .5;}
+.tab:hover{opacity:1;}
+.tab:active{opacity:1;}
 .fifties{
 background-color: #275642;
 width: 71%;

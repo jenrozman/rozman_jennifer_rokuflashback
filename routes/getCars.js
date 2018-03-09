@@ -4,7 +4,21 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/:id', (req, res) => { //orig had '/getCars', but its already looking for it in app.js
-  connect.query('SELECT * FROM mainmodel', (err, result) => {
+  connect.query('SELECT * FROM movies', (err, result) => {
+    if (err) {
+      throw err; console.log(err);
+    } else {
+      console.log(result);
+
+      res.render('home', {
+        data : result
+      });
+    }
+  });
+});
+//video
+router.get('/video/:vid', (req, res) => { //orig had '/getCars', but its already looking for it in app.js
+  connect.query('SELECT * FROM movies', (err, result) => {
     if (err) {
       throw err; console.log(err);
     } else {
@@ -18,5 +32,4 @@ router.get('/:id', (req, res) => { //orig had '/getCars', but its already lookin
     }
   });
 });
-
 module.exports = router;
