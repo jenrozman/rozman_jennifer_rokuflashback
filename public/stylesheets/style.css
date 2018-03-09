@@ -1,0 +1,173 @@
+body {
+     background-color: white;
+     color: #181818;
+}
+ .header{
+     margin-left: 120px;
+}
+ img{
+     margin: 10px;
+}
+ .logo{
+    width: 10%;
+    margin-left: 50px;
+}
+ .flashback{
+    width: 40%;
+    margin-left: 40px;
+}
+ .smimg{
+    width: 3%;
+}
+ .user{
+    margin-left:30px;
+}
+ .msg{
+     color:black;
+     font-size: 18px;
+     background:rgba(242, 242, 242, .8);
+     text-align: center;
+     font-family: 'Montserrat', sans-serif;
+     width: 90%;
+     margin: 0 auto;
+     padding: 10px;
+}
+ .headermsg{
+     background-image: url(https://images.fineartamerica.com/images-medium-large-5/back-road-morning-bill-wakeley.jpg);
+     width: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding-top: 50px;
+}
+ .filtericons{
+     width: 10%;
+     margin-left: 15%;
+     opacity: .8;
+}
+ .filteruser{
+     width: 10%;
+     margin-left: 15%;
+}
+ .users{
+    margin-top: 20px;
+}
+ .filteruser1{
+    width: 13%;
+    margin-left: 18%;
+}
+ .faq{
+   color: #6600cc;
+   font-size: 40px;
+   text-align: left;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bolder;
+   margin-left: 10%;
+   padding: 10px;
+   text-decoration: none;
+}
+  .msg2{
+     color: #6600cc;
+     font-size: 18px;
+     text-align: center;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: bold;
+     margin: 0 auto;
+     padding: 10px;
+     text-decoration: none;
+  }
+  .msg2:hover{
+    text-decoration: underline;
+  }
+  .msg2 p{
+    margin: 0;
+  }
+  .era{
+    margin-left : 190px;
+    margin-top: 50px;
+  }
+
+  .era img{
+    margin: 0 auto;
+  }
+  .era a{
+    margin: 0 auto;
+  }
+  .txt50{
+    position: absolute;
+    top: 170%;
+    left: 15%;
+    width: 13%;
+    color: white;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .txt60{
+    position: absolute;
+    top: 170%;
+    left: 30%;
+    width: 13%;
+    color: white;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .txt70{
+    position: absolute;
+    top: 170%;
+    left: 45%;
+    width: 13%;
+    color: white;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .txt80{
+      position: absolute;
+      top: 170%;
+      left:59%;
+      width: 13%;
+      color: white;
+      font-weight: 600;
+      font-size: 26px;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+    }
+    .txt90{
+        position: absolute;
+        top: 185%;
+        left: 75%;
+        width: 13%;
+        color: white;
+        font-weight: 600;
+        font-size: 26px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+      }
+    .footer{
+      background-color: #4d4d4d;
+    }
+    .footlogo{
+      width: 8%;
+      margin-left: 5%;
+    }
+
+    .copy{
+      font-size: 12px;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+      position: absolute;
+      top: 227%;
+      left: 40%;
+    }
+    .sm1{
+      width: 3%;
+      margin-left : 70%;
+    }
+    .sm{
+      width: 3%;
+    }
