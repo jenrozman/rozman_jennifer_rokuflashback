@@ -3,7 +3,7 @@ body {
      color: #181818;
 }
  .header{
-     margin-left: 120px;
+  margin-left: 240px;
 }
  img{
      margin: 10px;
@@ -19,8 +19,8 @@ body {
  .smimg{
     width: 3%;
 }
- .user{
-    margin-left:30px;
+ .users{
+    margin-left:300px;
 }
  .msg{
      color:black;
@@ -28,9 +28,9 @@ body {
      background:rgba(242, 242, 242, .8);
      text-align: center;
      font-family: 'Montserrat', sans-serif;
-     width: 90%;
+
      margin: 0 auto;
-     padding: 10px;
+
 }
  .headermsg{
      background-image: url(https://images.fineartamerica.com/images-medium-large-5/back-road-morning-bill-wakeley.jpg);
@@ -94,8 +94,8 @@ body {
   }
   .txt50{
     position: absolute;
-    top: 170%;
-    left: 15%;
+    top: 160%;
+    left: 13%;
     width: 13%;
     color: white;
     font-weight: 600;
@@ -105,8 +105,8 @@ body {
   }
   .txt60{
     position: absolute;
-    top: 170%;
-    left: 30%;
+    top: 160%;
+    left: 27%;
     width: 13%;
     color: white;
     font-weight: 600;
@@ -116,8 +116,8 @@ body {
   }
   .txt70{
     position: absolute;
-    top: 170%;
-    left: 45%;
+    top: 160%;
+    left: 40%;
     width: 13%;
     color: white;
     font-weight: 600;
@@ -127,8 +127,8 @@ body {
   }
   .txt80{
       position: absolute;
-      top: 170%;
-      left:59%;
+      top: 160%;
+      left:53%;
       width: 13%;
       color: white;
       font-weight: 600;
@@ -138,8 +138,8 @@ body {
     }
     .txt90{
         position: absolute;
-        top: 185%;
-        left: 75%;
+        top: 160%;
+        left: 67%;
         width: 13%;
         color: white;
         font-weight: 600;

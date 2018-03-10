@@ -5,7 +5,7 @@ body {
      padding: 0;
 }
  .header{
-     margin-left: 120px;
+     margin-left: 240px;
 }
  img{
      margin: 10px;
@@ -31,42 +31,13 @@ body {
 }
 .tab{opacity: .5;}
 .tab:hover{opacity:1;}
-.tab:active{opacity:1;}
-.fifties{
-background-color: #275642;
-width: 71%;
-margin-left: 10px;
-border-radius: 10px;
-}
-.sixties{
-background-color: #854c89;
-width: 71%;
-margin-left: 10px;
-border-radius: 10px;
-}
-.seventies{
-background-color: #934b19;
-width: 71%;
-margin-left: 10px;
-border-radius: 10px;
-}
+.tab1{opacity:1;}
+
 .eighties{
 background-color: #1c7770;
-width: 71%;
-margin-left: 10px;
-border-radius: 10px;
+width: 100%;
+padding-left: 270px;
 }
-.nineties{
-background-color: #a3a31a;
-width: 71%;
-margin-left: 10px;
-border-radius: 10px;
-}
-
-
-
-
-
 .footlogo{
   width: 8%;
   margin-left: 5%;
