@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var config = require('../config');
-
+var connect = require('../utils/sqlConnect');
 //check to see what the defaut user profile is
 //depending on whose here change what you see
 //var toRender = (config.kidsmode) ? 'main_kids' : 'home'; //ternary statement - look up MDN ternary ?-if/else, if true main_kids, if not main homepage
@@ -35,11 +35,14 @@ router.get('/main_kids', function(req, res, next){
   )
 })
 router.get('/video', function(req, res, next){
+  connect.query(`SELECT movies_trailer FROM tbl_movies WHERE vidSource="${req.params.vid}"`, (err,result) =>{
+    if (err) {
+        console.log(err);
+    }else{console.log(result[0])};
+
   res.render("video", {
-    message : 'hey video!'
-  }
-
-  )
-})
-
+    data: result[0];
+  });
+});
+};
 module.exports = router;
